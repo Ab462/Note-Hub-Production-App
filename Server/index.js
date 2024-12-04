@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const corsOptions = {
-    origin: 'https://note-hub-production-app-client-cyan.vercel.app',
+    origin: 'https://note-hub-production-app-client.vercel.app',
     credentials: true,
 };
 
