@@ -1,0 +1,39 @@
+.container {
+  margin: 6% auto;
+}
+i{
+  cursor: pointer;
+}
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #efefef;
+}
+.form-control, .card{
+  border: 2px solid #c5c5c5;
+  font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 988px) {
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    transition: 1s;
+
+  }
+
+}
+@media screen and (min-width: 988px) {
+  .dropdown{
+    margin-right: 20px;
+    transition: 1s;
+  }
+}
+
