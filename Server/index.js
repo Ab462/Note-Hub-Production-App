@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://note-hub-production-app-client-e81qk12zz-abdul-wasays-projects.vercel.app',
     credentials: true,
 };
 
