@@ -9,8 +9,8 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 
-app.use(cors({ origin: 'https://note-hub-production-app-client.vercel.app' }));
 app.use(express.json());
+app.use(cors({ origin: 'https://note-hub-production-app-client.vercel.app' }));
 
 app.use("/api/auth", auth);
 app.use("/api/notes", notes);
