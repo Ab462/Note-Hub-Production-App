@@ -13,6 +13,7 @@ app.use(cors({
     origin: "https://note-hub-production-app-client.vercel.app",
     credentials: true,
 }));
+app.options("*", cors(corsOptions)); 
 app.use(express.json());
 
 app.use("/api/auth", auth);
